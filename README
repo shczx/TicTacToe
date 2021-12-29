@@ -1,0 +1,18 @@
+This is a simple project implementing the Tic-Tac-Toe game.
+The project is intended to help myself review the concepts of polymorphism and exception.
+
+The usage info is as follows:
+The user will first be prompted to enter the mode of each player (A means AI, H means Human),
+the name of each player (human player only) and the points required to win the game (positive int only).
+Human player needs to enter the position they want to mark on the board. The position needs to be formatted as [row][space][col], e.g. 0 1.
+If human player enters a valid position (not marked yet and within the scope of the board), they will be asked if they want to end their turn.
+If human player enters 'y', their turn ends. If they enters 'n', they will be prompted to enter a position again.
+
+
+Rows and columns on the board are described as follows:
+ 0 1 2
+0 | | 
+ - - -
+1 | | 
+ - - -
+2 | |
